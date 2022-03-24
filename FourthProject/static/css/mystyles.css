@@ -1,0 +1,15 @@
+#h11{
+    color:blue;
+    background: yellow;
+    border: 2px Solid Brown;
+}
+#h22{
+    color:green;
+    background: lightpink;
+    border: 1px Solid red;
+}
+#img1{
+    border:10px Groove red;
+    width:300px;
+    height:200px;
+}

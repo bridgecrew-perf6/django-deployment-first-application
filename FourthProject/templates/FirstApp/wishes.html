@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}  <!--folder name-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Files in Django APP</title>
+    <style>
+        #h11{
+        color:blue;
+    }
+    #h22{
+        color:green;
+    }
+    #img1{
+    width:500px;
+    height:400px;}
+    </style>
+
+</head>
+<body>
+    <h1 id="h11">{{ msg1 }}</h1> <!--django tempate variable tag-->
+    <hr/>
+    <h2 id="h22"> Cureent server date and time::{{ date1 }}</h2>
+    <hr/>
+    <h3>At this time ur images is::</h3>
+    <img src="{%static 'images/' %}{{ imgs }}" alt="Time-line-Image" id="img1"/>
+
+</body>
+</html>
